@@ -7,7 +7,15 @@ authors = [
     { name = "sugiharto", email = "sugihartobangsawan@gmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "langchain-chroma>=1.1.0",
+    "langchain-community>=0.4.2",
+    "langchain-openai>=1.6.2",
+    "langchain-text-splitters>=1.1.2",
+    "pypdf>=6.18.0",
+    "python-dotenv>=1.2.3",
+    "streamlit>=1.63.0",
+]
 
 [project.scripts]
 rag-sni-puil = "rag_sni_puil:main"

@@ -1,2 +1,5 @@
+from rag_sni_puil.ingest import ingest
+
+
 def main() -> None:
-    print("Hello from rag-sni-puil!")
+    ingest(reset=False)
